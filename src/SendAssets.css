@@ -1,0 +1,99 @@
+.back-btn {
+    position: absolute;
+    top: 30%;
+    background: none;
+    border: none;
+}
+.asset-select {
+    text-align: left;
+    width: 100%;
+    height: 5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+.asset-select:hover {
+    background-color: #edf1f7;
+}
+.send-assets input {
+    width: 96.5%;
+    height: 2.8rem;
+    border-radius: 0.7rem;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 1rem;
+}
+.send-assets p,
+.send-assets span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn-controll {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+a button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    color: #1273ea;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn-controll button:nth-child(2),
+.btn-controll a {
+    width: 40%;
+    height: 3rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(256.28deg, #1c94f4 0%, #1273ea 100%);
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn-controll a {
+    width: 38%;
+    margin-left: 2rem;
+    background: #f7f9fc;
+}
+.btn-controll button:nth-child(2) {
+    margin-right: 2rem;
+}
+.alert {
+    width: 77%;
+    height: 30%;
+    position: absolute;
+    top: 16.5%;
+    left: 5.5%;
+    background: #fff;
+    border-radius: 20px;
+    padding: 2rem;
+    z-index: 3;
+}
+.alert h1 {
+    text-align: center;
+}
+.alert p {
+    font-size: 1.5rem;
+    text-transform: unset;
+    font-weight: normal;
+    margin: 0;
+}
+.alert button {
+    width: 100%;
+    height: 3.5rem;
+    margin-top: 2rem;
+    background: #2f80ed;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
