@@ -4,11 +4,13 @@ import eur from "./images/eur-pic.png";
 import yen from "./images/yen-pic.png";
 
 function Wallet() {
-  const navigate = useNavigate();
 
-  if (localStorage.getItem("UserAdmin") === null) {
-    navigate("/auth", { replace: true });
-  }
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (localStorage.getItem("UserAdmin") === null) {
+      navigate("/auth");
+    }
+  });
 
   return (
     <div style={{ padding: "2rem", paddingTop: "0" }}>
